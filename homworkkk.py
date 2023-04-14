@@ -23,10 +23,3 @@ class Child(Parent1, Parent2):
     def method3(self):
         print("method3 from Child")
 
-obj = Child()
-print(obj.attribute1)
-print(obj.attribute2)
-print(obj.attribute3)
-obj.method1()
-obj.method2()
-obj.method3()
